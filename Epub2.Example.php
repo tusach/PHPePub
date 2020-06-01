@@ -28,7 +28,7 @@ date_default_timezone_set('Europe/Berlin');
 
 $fileDir = './PHPePub';
 
-include_once("EPub.php");
+include_once("EPub2.php");
 
 $book = new EPub(); // no argumetns gives us the default ePub 2, lang=en and dir="ltr"
 
